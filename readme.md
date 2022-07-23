@@ -1,6 +1,6 @@
 # discord-cardano-epoch-tracker
 
-A discord bot allowing users of a specific role the ability to whitelist an address against their discord id.
+A discord bot that displays the current cardano epoch, as well as a live countdown untill the next epoch.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ npm install
 
 1. Create a Bot through the discord developer portal, give it relevant permissions and invite it to your discord server.
 
-2. Create a blockfrost account / project and set it to mainnet.
+2. Create a blockfrost mainnet API_KEY.
 
 #### Add to the .env File:
 
